@@ -2,6 +2,7 @@ from flask import Flask, request, render_template
 import os
 import sys
 import pickle
+import sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
