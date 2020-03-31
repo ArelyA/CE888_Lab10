@@ -9,6 +9,8 @@ from sklearn.svm import SVC
 sys.modules['sklearn.linear_model._logistic'] = sklearn.linear_model
 sys.modules['sklearn.ensemble._forest'] = sklearn.ensemble
 sys.modules['sklearn.tree._classes'] = sklearn.tree
+sys.modules['sklearn.svm.classes'] = sklearn.svm
+
 
 print(os.getcwd())
 path = os.getcwd()
