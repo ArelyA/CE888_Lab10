@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template
 import os
 import pickle
-import sklearn.linear_model._logistic as logistic
 
 print(os.getcwd())
 path = os.getcwd()
