@@ -48,7 +48,7 @@ div {
   <form method="POST">
   <form action="/action_page.php">
     <label for="age"></label>
-    <input type="number" id="age" name="age" placeholder="Age in years" min="38" max="1027" step="0.1" required size="35">
+    <input type="number" id="age" name="age" placeholder="Age in years" min="0" max="1027" step="1" required size="35">
 
     <label for="sex"></label>
     <select name="sex">
@@ -81,7 +81,7 @@ div {
 
     <label for="restecg"></label>
     <select name="restecg">
-      <option value="" selected disabled hidden>Chest Pain</option>
+      <option value="" selected disabled hidden>Resting electrocardiographic measurement</option>
       <option value="0">Normal</option>
       <option value="1">ST-T wave abnormality</option>
       <option value="2">Left ventricular hypertrophy by Estes' criteria</option>
@@ -102,7 +102,7 @@ div {
 
     <label for="slope"></label>
     <select name="slope">
-      <option value="" selected disabled hidden>Chest Pain</option>
+      <option value="" selected disabled hidden>Slope of the peak exercise ST segment</option>
       <option value="1">Upsloping</option>
       <option value="2">Flat</option>
       <option value="3">Downsloping</option>
