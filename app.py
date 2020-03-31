@@ -1,10 +1,11 @@
 from flask import Flask, request, render_template
 import os
+import sys
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
-
+sys.modules['sklearn.linear_model._logistic'] = LogisticRegression
 print(os.getcwd())
 path = os.getcwd()
 
